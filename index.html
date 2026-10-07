@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakoli Sport Table - نرم‌افزار ترسیم جداول ورزشی</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ==================== Header ==================== -->
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <span class="logo-icon">🏆</span>
+            <span class="logo-text" data-fa="کاکلی اسپرت تیبل" data-en="Kakoli Sport Table">کاکلی اسپرت تیبل</span>
+        </div>
+        <nav class="nav">
+            <a href="#features" data-fa="ویژگی‌ها" data-en="Features">ویژگی‌ها</a>
+            <a href="#screenshots" data-fa="تصاویر" data-en="Screenshots">تصاویر</a>
+            <a href="#download" data-fa="دانلود" data-en="Download">دانلود</a>
+            <a href="#contact" data-fa="تماس" data-en="Contact">تماس</a>
+            <a href="https://mehdikakoli.github.io/Kakoli-SCM/" class="scm-link" data-fa="SCM →" data-en="SCM →">SCM →</a>
+            <button id="langToggle" class="lang-btn">EN</button>
+        </nav>
+    </div>
+</header>
+
+<!-- ==================== Hero ==================== -->
+<section class="hero">
+    <div class="container">
+        <h1 data-fa="نرم‌افزار ترسیم جداول ورزشی" data-en="Sports Tournament Table Generator">نرم‌افزار ترسیم جداول ورزشی</h1>
+        <p class="hero-subtitle" data-fa="ترسیم خودکار جداول تک‌حذفی، دوحذفی، شانس مجدد و گروهی" data-en="Automatic generation of single elimination, double elimination, repechage and group tables">ترسیم خودکار جداول تک‌حذفی، دوحذفی، شانس مجدد و گروهی</p>
+        <p class="hero-version">v3.0.0</p>
+        <div class="hero-buttons">
+            <a href="#download" class="btn btn-primary" data-fa="⬇️ دانلود" data-en="⬇️ Download">⬇️ دانلود</a>
+            <a href="#features" class="btn btn-secondary" data-fa="اطلاعات بیشتر" data-en="Learn More">اطلاعات بیشتر</a>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== Features ==================== -->
+<section id="features" class="section">
+    <div class="container">
+        <h2 data-fa="ویژگی‌ها" data-en="Features">ویژگی‌ها</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⚽</div>
+                <h3 data-fa="جداول تک‌حذفی" data-en="Single Elimination">جداول تک‌حذفی</h3>
+                <p data-fa="ترسیم خودکار جداول تک‌حذفی برای ۴ تا ۶۴ تیم" data-en="Automatic generation for 4 to 64 teams">ترسیم خودکار جداول تک‌حذفی برای ۴ تا ۶۴ تیم</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔄</div>
+                <h3 data-fa="جداول دوحذفی" data-en="Double Elimination">جداول دوحذفی</h3>
+                <p data-fa="ترسیم خودکار جداول دوحذفی برای ۴ تا ۳۲ تیم" data-en="Automatic generation for 4 to 32 teams">ترسیم خودکار جداول دوحذفی برای ۴ تا ۳۲ تیم</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">♻️</div>
+                <h3 data-fa="شانس مجدد" data-en="Repechage">شانس مجدد</h3>
+                <p data-fa="ترسیم جداول شانس مجدد برای ۸ تا ۳۲ تیم" data-en="Generation for 8 to 32 teams">ترسیم جداول شانس مجدد برای ۸ تا ۳۲ تیم</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <h3 data-fa="جداول گروهی" data-en="Group Tables">جداول گروهی</h3>
+                <p data-fa="ترسیم جداول گروهی با هر تعداد تیم در گروه" data-en="Generate group tables with any team count">ترسیم جداول گروهی با هر تعداد تیم در گروه</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎲</div>
+                <h3 data-fa="قرعه‌کشی تصادفی" data-en="Random Draw">قرعه‌کشی تصادفی</h3>
+                <p data-fa="امکان قرعه‌کشی تصادفی و سیدبندی خودکار" data-en="Random draw and automatic seeding">امکان قرعه‌کشی تصادفی و سیدبندی خودکار</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3 data-fa="محاسبات خودکار" data-en="Auto Calculations">محاسبات خودکار</h3>
+                <p data-fa="فرمول‌های آماده برای محاسبه برنده و رده‌بندی" data-en="Pre-defined formulas for winners and rankings">فرمول‌های آماده برای محاسبه برنده و رده‌بندی</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <h3 data-fa="دو روش ورود اطلاعات" data-en="Two Input Methods">دو روش ورود اطلاعات</h3>
+                <p data-fa="ورود از طریق فرم یا مستقیم در شیت" data-en="Enter via form or directly in sheet">ورود از طریق فرم یا مستقیم در شیت</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📄</div>
+                <h3 data-fa="خروجی مستقل" data-en="Independent Output">خروجی مستقل</h3>
+                <p data-fa="فایل خروجی مستقل بدون نیاز به فایل اصلی" data-en="Independent output without needing master file">فایل خروجی مستقل بدون نیاز به فایل اصلی</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== Screenshots ==================== -->
+<section id="screenshots" class="section section-alt">
+    <div class="container">
+        <h2 data-fa="تصاویر" data-en="Screenshots">تصاویر</h2>
+        <div class="screenshots-grid">
+            <div class="screenshot">
+                <img src="screenshots/home.png" alt="Home Sheet">
+                <p data-fa="شیت اصلی ورود اطلاعات" data-en="Main input sheet">شیت اصلی ورود اطلاعات</p>
+            </div>
+            <div class="screenshot">
+                <img src="screenshots/form.png" alt="Input Form">
+                <p data-fa="فرم ورود اطلاعات" data-en="Input form">فرم ورود اطلاعات</p>
+            </div>
+            <div class="screenshot">
+                <img src="screenshots/table-h1.png" alt="Single Elimination">
+                <p data-fa="جدول تک‌حذفی" data-en="Single elimination table">جدول تک‌حذفی</p>
+            </div>
+            <div class="screenshot">
+                <img src="screenshots/table-h2.png" alt="Double Elimination">
+                <p data-fa="جدول دوحذفی" data-en="Double elimination table">جدول دوحذفی</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== Download ==================== -->
+<section id="download" class="section">
+    <div class="container">
+        <h2 data-fa="دانلود" data-en="Download">دانلود</h2>
+        <div class="download-card">
+            <div class="download-info">
+                <h3 data-fa="Kakoli Sport Table v3.0.0" data-en="Kakoli Sport Table v3.0.0">Kakoli Sport Table v3.0.0</h3>
+                <p data-fa="فایل فشرده شامل برنامه، راهنما و فایل راهنمای پسورد" data-en="Compressed file includes application, manual and password guide file">فایل فشرده شامل برنامه، راهنما و فایل راهنمای پسورد</p>
+                <p class="password-hint">
+                    <strong data-fa="رمز فایل:" data-en="File password:">رمز فایل:</strong>
+                    <code>mehdikakoli</code>
+                </p>
+            </div>
+            <a href="downloads/Kakoli Sport Table v3.0.0.rar" class="btn btn-primary btn-large" data-fa="⬇️ دانلود" data-en="⬇️ Download">⬇️ دانلود</a>
+        </div>
+
+        <div class="download-note">
+            <h4 data-fa="راهنمای نصب" data-en="Installation Guide">راهنمای نصب</h4>
+            <ol>
+                <li data-fa="فایل RAR رو با پسورد mehdikakoli استخراج کنید" data-en="Extract RAR file with password mehdikakoli">فایل RAR رو با پسورد <code>mehdikakoli</code> استخراج کنید</li>
+                <li data-fa="فایل اکسل رو باز کنید و ماکروها رو فعال کنید" data-en="Open Excel file and enable macros">فایل اکسل رو باز کنید و ماکروها رو فعال کنید</li>
+                <li data-fa="در فرم لاگین، نام کاربری و رمز عبور رو وارد کنید" data-en="Enter username and password in login form">در فرم لاگین، نام کاربری و رمز عبور رو وارد کنید</li>
+                <li data-fa="در شیت home، تیم‌ها رو وارد کنید یا از فرم استفاده کنید" data-en="Enter teams in home sheet or use the form">در شیت home، تیم‌ها رو وارد کنید یا از فرم استفاده کنید</li>
+                <li data-fa="نوع جدول و نوع استراحت رو انتخاب و دکمه ترسیم جدول رو بزنید" data-en="Select table type, bye type and click draw button">نوع جدول و نوع استراحت رو انتخاب و دکمه ترسیم جدول رو بزنید</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== Requirements ==================== -->
+<section class="section section-alt">
+    <div class="container">
+        <h2 data-fa="نیازمندی‌های سیستم" data-en="System Requirements">نیازمندی‌های سیستم</h2>
+        <table class="requirements-table">
+            <tr>
+                <th data-fa="سیستم عامل" data-en="Operating System">سیستم عامل</th>
+                <td data-fa="Windows 7 یا بالاتر" data-en="Windows 7 or higher">Windows 7 یا بالاتر</td>
+            </tr>
+            <tr>
+                <th data-fa="نرم‌افزار" data-en="Software">نرم‌افزار</th>
+                <td data-fa="Microsoft Excel 2010 یا بالاتر" data-en="Microsoft Excel 2010 or higher">Microsoft Excel 2010 یا بالاتر</td>
+            </tr>
+            <tr>
+                <th data-fa="فضای دیسک" data-en="Disk Space">فضای دیسک</th>
+                <td data-fa="کمتر از ۵۰ مگابایت" data-en="Less than 50 MB">کمتر از ۵۰ مگابایت</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<!-- ==================== Contact ==================== -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2 data-fa="تماس با توسعه‌دهنده" data-en="Contact Developer">تماس با توسعه‌دهنده</h2>
+        <div class="contact-info">
+            <p class="developer-name">مهدی کاکلی</p>
+            <p>
+                <strong data-fa="ایمیل:" data-en="Email:">ایمیل:</strong>
+                <a href="mailto:mk.kakoli@gmail.com">mk.kakoli@gmail.com</a>
+            </p>
+            <p>
+                <strong data-fa="گیت‌هاب:" data-en="GitHub:">گیت‌هاب:</strong>
+                <a href="https://github.com/mehdikakoli">github.com/mehdikakoli</a>
+            </p>
+        </div>
+
+        <div class="related-project">
+            <h3 data-fa="پروژه‌های مرتبط" data-en="Related Projects">پروژه‌های مرتبط</h3>
+            <a href="https://mehdikakoli.github.io/Kakoli-SCM/" class="related-link">
+                🏆 <span data-fa="نرم‌افزار مدیریت مسابقات ورزشی (SCM)" data-en="Sports Competition Manager (SCM)">نرم‌افزار مدیریت مسابقات ورزشی (SCM)</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== Footer ==================== -->
+<footer class="footer">
+    <div class="container">
+        <p data-fa="© ۱۴۰۳ مهدی کاکلی - تمامی حقوق محفوظ است" data-en="© 2024 Mehdi Kakoli - All rights reserved">© ۱۴۰۳ مهدی کاکلی - تمامی حقوق محفوظ است</p>
+        <p class="version">Kakoli Sport Table v3.0.0</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
